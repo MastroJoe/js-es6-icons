@@ -4,17 +4,15 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 25px;
-  text-align: center;
-  color: green;
-}
-
-#form {
+#icons {
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+}
+
+#icons i {
+  font-size: 25px;
 }
