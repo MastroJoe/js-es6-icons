@@ -106,15 +106,23 @@ $(document).ready(function(){
   	}
   ];
   console.log(icons);
+
   // Milestone 1
+
   // ciclo l'array di oggetti con forEach e stampo anche su HTML
-  icons.forEach((item, i) => {
-    // console.log(item);
-    $('#icons').append(`<i class="${item.family} ${item.prefix}${item.name}"></i><div>${item.name}</div>`);
-  });
+  // icons.forEach((item, i) => {
+  //   // console.log(item);
+  //   $('#icons').append(`<i class="${item.family} ${item.prefix}${item.name}"></i><div>${item.name}</div>`);
+  // });
 
   // Milestone 2
+
   // Coloriamo le icone per tipo.
-  
+  icons.forEach((item, i) => {
+    $('#icons').append(`<i class="${item.type} ${item.family} ${item.prefix}${item.name}"></i><div>${item.name}</div>`);
+    console.log(item.type);
+  });
+
+
 
 });
