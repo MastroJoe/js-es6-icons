@@ -115,6 +115,8 @@ $(document).ready(function(){
   //   $('#icons').append(`<i class="${item.family} ${item.prefix}${item.name}"></i><div>${item.name}</div>`);
   // });
 
+////////////////////////////////////////////////////////////////////////////////
+
   // Milestone 2
 
   // Coloriamo le icone per tipo.
